@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+provisioning_profiles/development/F2B75393-1756-4609-B8D6-B7CFE0799DC4/appid=*
+provisioning_profiles/development/F2B75393-1756-4609-B8D6-B7CFE0799DC4/name=iOS Team Provisioning Profile\: *
+provisioning_profiles/development/F2B75393-1756-4609-B8D6-B7CFE0799DC4/uuid=F2B75393-1756-4609-B8D6-B7CFE0799DC4
+provisioning_profiles/distribution/AE8D9435-5C23-4F94-846C-255FC08E4470/appid=com.gameInARow.isak
+provisioning_profiles/distribution/AE8D9435-5C23-4F94-846C-255FC08E4470/name=Pentago - The Ultimate Strategy Game
+provisioning_profiles/distribution/AE8D9435-5C23-4F94-846C-255FC08E4470/uuid=AE8D9435-5C23-4F94-846C-255FC08E4470
+provisioning_profiles/distribution/FB9D5020-C99A-41E7-B104-D9CAE992A981/appid=com.golfregler.isakgustafsson
+provisioning_profiles/distribution/FB9D5020-C99A-41E7-B104-D9CAE992A981/name=Golfens Regler
+provisioning_profiles/distribution/FB9D5020-C99A-41E7-B104-D9CAE992A981/uuid=FB9D5020-C99A-41E7-B104-D9CAE992A981
