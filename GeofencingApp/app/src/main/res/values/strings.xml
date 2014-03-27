@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Geofencing</string>
+    <string name="action_settings">Settings</string>
+    <string name="GAPI_KEY">AIzaSyAlWs8fWyxs7_AGSR5Yfi_oksUpHBPYE08</string>
+    <string name="save_geofence">Save Geofence</string>
+    <string name="geofence_lista">Geofence lista</string>
+
+</resources>

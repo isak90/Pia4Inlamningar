@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/timer_label"
+        android:id="@+id/timerTextView"
+        android:textColor="#00FF00"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="30dp"
+        android:textSize="60dp"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/ownTime"
+        android:hint="@string/timerHintText" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="97dp"
+        android:paddingTop="30dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start"
+            android:background="#FFFFFF"
+            android:id="@+id/buttonStart"
+            android:onClick="startTimer"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Pause"
+            android:background="#FFFFFF"
+            android:id="@+id/buttonPause"
+            android:onClick="stopTimer"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Reset"
+            android:background="#FFFFFF"
+            android:onClick="resetTimer"
+            android:id="@+id/buttonReset"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancel_alarm_button"
+        android:layout_gravity="center"
+        android:text="@string/stop_timer"
+        android:onClick="stopAlarm"
+        android:visibility="invisible"/>
+
+
+
+</LinearLayout>

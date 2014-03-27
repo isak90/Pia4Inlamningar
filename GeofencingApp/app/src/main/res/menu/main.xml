@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.isakgustafsson.geofencingapp.app.MainActivity" >
+    
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/action_save_geofence"
+        android:title="@string/save_geofence"
+        android:orderInCategory="95"
+        android:showAsAction="ifRoom" />
+
+
+    <item android:id="@+id/action_change_view"
+        android:title="@string/geofence_lista"
+        android:orderInCategory="65"
+        android:showAsAction="ifRoom"
+        />
+
+</menu>

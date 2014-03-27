@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.isakgustafsson.facebookapplication.app.MainActivity.FacebookLoginFragment">
+
+    <com.facebook.widget.LoginButton
+        android:id="@+id/facebookLoginButton"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/facebookLoginButton">
+
+        <Button
+            android:id="@+id/refresh_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:layout_weight="1"
+            android:text="@string/refresh_label"
+            android:onClick="onFacebookRefresh"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/textPost"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:hint="Write to Facebook wall"
+        android:layout_below="@id/buttons"
+        android:layout_margin="10dp" />
+
+
+    <LinearLayout
+        android:id="@+id/buttons2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/textPost">
+
+
+        <Button
+            android:id="@+id/post_text_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/post_text_label"
+            android:enabled="false"
+            android:onClick="onPostTextClicked"/>
+
+
+
+        <Button
+            android:id="@+id/post_photo_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/post_photo_label"
+            android:enabled="false"
+            android:onClick="onPostPhotoClicked"/>
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/facebook_message_list"
+        android:layout_below="@id/buttons2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>
